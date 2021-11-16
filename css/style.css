@@ -2,6 +2,7 @@
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
+  border: 1px solid #ececec;
 }
 .header-list {
   display: flex;
@@ -28,11 +29,11 @@
   align-items: center;
 }
 .header-item:not(:last-child) {
-  margin-right: 52px;
+  margin-right: 50px;
 }
 /* ________CONTACTS_________ */
 .contacts {
-  margin-left: 52px;
+  margin-left: 50px;
 }
 .contacts {
   display: flex;
@@ -44,6 +45,9 @@
   color: #2196f3;
 }
 /* __________________CUSTOM ________________*/
+a {
+  text-decoration: none;
+}
 img {
   display: block;
 }
